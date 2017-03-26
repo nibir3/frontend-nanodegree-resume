@@ -1,3 +1,5 @@
-var awesomethoughts="I am Nibir and I am AWESOME";
-var funthoughts=awesomethoughts.replace("AWESOME","FUN");
-$("#main").append(funthoughts);
+var formatted_name=HTMLheaderName.replace("%data%","Nibir Baruah");
+var formatted_role=HTMLheaderRole.replace("%data%","Web Developer");
+$("#header").prepend(formatted_role);
+$("#header").prepend(formatted_name);
+
